@@ -1,28 +1,17 @@
-# -------- Example 1: Set comprehension to get unique chai types --------
-
-favourite_chais = [
-    "masala chai", "green tea", "masala chai",
-    "lemon tea", "green tea", "elaichi chai"
+cakes = [
+    "cheese cake" , "truffle cake", "dry cake",
+    "pineapple cake" , "blueberry cake" , "dark chocolate cake"
 ]
 
-# Set comprehension removes duplicate chai names
-unique_chai = {chai for chai in favourite_chais}
-
-print(unique_chai)
-print("------------------------")
+unique_cake = [cake for cake in cakes]
+print(unique_cake)
 
 
-# -------- Example 2: Nested set comprehension to get unique spices --------
-
-recipe = {
-    "masala chai": ["ginger", "cardamom", "clove"],
-    "elaichi chai": ["cardamom", "milk"],
-    "spicy chai": ["ginger", "black pepper", "clove"]
+my_bake = {
+    "cake" : ["choco lava", "truffle", "pineapple"],
+    "pastry" : ["vanila","strawbeerry", "jam roll"],
+    "bakes" : ["patty" , "cream roll" , "finger"]
 }
 
-# Loop through each recipe's ingredient list,
-# then through each spice to collect unique spices
-unique_spices = {spice for ingredients in recipe.values() for spice in ingredients}
-
-print(unique_spices)
-print("------------------------")
+varieties = [bake for bake in my_bake.values() for bake in bake]
+print(varieties)
