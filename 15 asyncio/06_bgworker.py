@@ -9,7 +9,7 @@ def background_worker():
 
 
 async def fetch_order():
-    await asyncio.sleep(3)
+    await asyncio.sleep(6)
     print("🎁 order fetched")
 
 threading.Thread(target=background_worker,daemon=True).start()
