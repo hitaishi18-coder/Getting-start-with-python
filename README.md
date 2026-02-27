@@ -1,5 +1,3 @@
-Gemini said
-Here is a comprehensive README.md file tailored to the structure and content of your Python learning repository.
 
 Getting Started with Python 🐍☕
 Welcome to the Getting Started with Python repository! This project serves as a comprehensive, step-by-step guide to learning Python. It covers everything from the absolute basics of programming to advanced, production-ready concepts like Object-Oriented Programming (OOP), Concurrency, Asyncio, and Pydantic.
